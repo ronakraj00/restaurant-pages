@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+}
+header>*{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+*{
+    margin: 10px;
+    padding: 8px;
+}
+
+img{
+    width: 250px;
+    height: auto;
+}
+
+main>*{
+    border-left: 6px solid blueviolet;
+    border-right: 6px solid blueviolet;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+
+}
+
+.active-tab{
+    background-color: blueviolet;
+    color: white;
+}
