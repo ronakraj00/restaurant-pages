@@ -2,11 +2,19 @@ header{
     display: flex;
     border: 2px solid black;
     justify-content: space-around;
+    overflow:auto;
 }
 header>*{
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+@media screen and (max-width:500px) {
+    *{
+        font-size: 1.6rem;
+        overflow: auto;
+    }
 }
 
 *{
@@ -30,4 +38,14 @@ main>*{
 .active-tab{
     background-color: blueviolet;
     color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
 }
