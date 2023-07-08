@@ -3,19 +3,14 @@ header{
     border: 2px solid black;
     justify-content: space-around;
     overflow:auto;
+    margin-top: 0px;
 }
 header>*{
     cursor: pointer;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 600;  
 }
 
-@media screen and (max-width:500px) {
-    *{
-        font-size: 1.6rem;
-        overflow: auto;
-    }
-}
 
 *{
     margin: 10px;
@@ -28,6 +23,7 @@ img{
 }
 
 main>*{
+
     border-left: 6px solid blueviolet;
     border-right: 6px solid blueviolet;
     border-top:2px solid black;
@@ -40,12 +36,24 @@ main>*{
     color: white;
 }
 main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    font-size: 1.2rem;
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    background-image:url(https://st2.depositphotos.com/1194063/8994/i/450/depositphotos_89940720-stock-photo-colorful-spices-on-wooden-table.jpg);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 27px;
+    font-weight: 600;
+    
+}
+html{
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
 }
