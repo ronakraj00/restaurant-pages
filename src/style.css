@@ -51,6 +51,7 @@ body{
     text-align: center;
     line-height: 27px;
     font-weight: 600;
+    user-select: none;
     
 }
 html{
@@ -63,11 +64,6 @@ html{
 #location{
     margin-bottom: 0px;
 }
-
-::selection{
-    background-color:rgba(137, 43, 226, 0);
-}
-
 
 main>:first-child{
     font-size: 2rem;
