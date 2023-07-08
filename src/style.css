@@ -62,3 +62,7 @@ html{
 #location{
     margin-bottom: 0px;
 }
+
+::selection{
+    background-color:rgba(137, 43, 226, 0);
+}
