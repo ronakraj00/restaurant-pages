@@ -38,6 +38,7 @@ main>*{
 }
 main{
     font-size: 1.2rem;
+    overflow-wrap:break-word;
 }
 
 body{
@@ -65,4 +66,10 @@ html{
 
 ::selection{
     background-color:rgba(137, 43, 226, 0);
+}
+
+
+main>:first-child{
+    font-size: 2rem;
+    font-family:cursive;
 }
